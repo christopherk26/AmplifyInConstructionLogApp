@@ -1,104 +1,172 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure root div takes full width */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background: #1a1a1a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
+/* Container */
 .container {
-  max-width: 800px;
+  width: 100%;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 40px;
+  flex: 1;
 }
 
+/* Header */
 .header {
-  background: #2c3e50;
-  color: white;
+  text-align: center;
+  margin-bottom: 40px;
   padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  width: 100%;
 }
 
 .header h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.5em;
+  background: linear-gradient(45deg, #4a9eff, #6e48aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-.header p {
-  margin: 5px 0 0;
+.subtitle {
+  margin: 15px 0;
+  font-size: 1.1em;
+  color: #888;
+}
+
+/* Team Members */
+.team-members {
+  margin-top: 20px;
+  font-size: 1em;
   opacity: 0.8;
+  color: #aaa;
+  padding-top: 15px;
 }
 
+/* Meeting Logs Grid */
+.logs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjusted for better responsiveness */
+  gap: 25px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/* Meeting Log Cards */
 .meeting-log {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  background: #2d2d2d;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border: 1px solid #3d3d3d;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 500px;
+  overflow-y: auto;
 }
 
+.meeting-log:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+/* Meeting Type */
 .meeting-type {
-  color: #666;
-  font-size: 0.9em;
+  color: #888;
+  font-size: 1em;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #3d3d3d;
+  padding-bottom: 10px;
 }
 
+/* Member Updates */
 .member-update {
   margin-left: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .member-name {
   font-weight: bold;
-  color: #2c3e50;
+  color: #4a9eff;
+  margin-bottom: 8px;
 }
 
+/* Headings */
 h2 {
-  color: #2c3e50;
+  color: #ffffff;
   margin-top: 0;
+  font-size: 1.8em;
 }
 
 h3 {
-  color: #34495e;
-  margin-top: 20px;
+  color: #4a9eff;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  border-bottom: 2px solid #3d3d3d;
+  padding-bottom: 8px;
 }
 
-body {
-  background: #f5f5f5;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+/* Lists */
+ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  position: relative;
+}
+
+li:before {
+  content: "•";
+  color: #4a9eff;
+  font-weight: bold;
+  position: absolute;
+  left: -15px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .logs-grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* More adaptable on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
 }
