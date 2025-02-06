@@ -113,70 +113,24 @@ function App() {
         </article>
         {/* Meeting 5 end */}
 
-        {/* Meeting 4 */}
+        {/* Meeting 3 start Log */}
         <article className="meeting-log">
           <h2>Meeting - February 5, 2025</h2>
-
-          <section>
-            <h3>Nico</h3>
-            <div className="member-update">
-              <p className="member-name">Today's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-            <div className="member-update">
-              <p className="member-name">Tomorrow's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-          </section>
-
-          <section>
-            <h3>Ramsey</h3>
-            <div className="member-update">
-              <p className="member-name">Today's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-            <div className="member-update">
-              <p className="member-name">Tomorrow's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-          </section>
 
           <section>
             <h3>Christopher</h3>
             <div className="member-update">
               <p className="member-name">Today's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
+                <li>Wrote the Friday proposal with the team</li>
+                <li>Reviewed git</li>
               </ul>
             </div>
             <div className="member-update">
               <p className="member-name">Tomorrow's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-          </section>
-
-          <section>
-            <h3>Ali</h3>
-            <div className="member-update">
-              <p className="member-name">Today's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-            <div className="member-update">
-              <p className="member-name">Tomorrow's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
+                <li>Review more git</li>
+                <li>Work on the proposal and SRS</li>
               </ul>
             </div>
           </section>
@@ -186,77 +140,100 @@ function App() {
             <div className="member-update">
               <p className="member-name">Today's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
+                <li>Started proposal for Friday</li>
+                <li>Looking into git</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Researched some of React tech stack</li>
+                <li>Learn how to use git/github</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Read into git and how to use it as a team</li>
+                <li>Started writing for the proposal and SRS</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Set up GitHub in Visual Studio Code</li>
+                <li>Looked into Node.js</li>
               </ul>
             </div>
             <div className="member-update">
               <p className="member-name">Tomorrow's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
+                <li>Write for the proposal</li>
+                <li>Look for questions to ask professor</li>
               </ul>
             </div>
           </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Finalize writing Proposal</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Look into git and setup for VSCode</li>
+              </ul>
+            </div>
+          </section>
+
+
           <section>
             <h3>Reminders</h3>
             <div className="member-update">
               <ul>
-                <li>Other tasks go here</li>
-                <li>Other tasks go here</li>
-                <li>Other tasks go here</li>
+                <li>Team is working on Friday's proposal</li>
+                <li>Everyone should familiarize themselves with git/GitHub</li>
+                <li>SRS (Software Requirements Specification) needs to be worked on</li>
+                <li>Tech stack research (React, Node.js) is ongoing</li>
               </ul>
             </div>
           </section>
         </article>
-        {/* Meeting 4 end */}
+        {/* Meeting 4 end log */}
 
         {/* Meeting 3 */}
         <article className="meeting-log">
           <h2>Meeting - February 4, 2025</h2>
 
           <section>
-            <h3>Nico</h3>
-            <div className="member-update">
-              <p className="member-name">Today's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-            <div className="member-update">
-              <p className="member-name">Tomorrow's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-          </section>
-
-          <section>
-            <h3>Ramsey</h3>
-            <div className="member-update">
-              <p className="member-name">Today's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-            <div className="member-update">
-              <p className="member-name">Tomorrow's Tasks:</p>
-              <ul>
-                <li>Tasks go here</li>
-              </ul>
-            </div>
-          </section>
-
-          <section>
             <h3>Christopher</h3>
             <div className="member-update">
               <p className="member-name">Today's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
+                <li>Looked into tech stack and thought of ideas</li>
               </ul>
             </div>
             <div className="member-update">
               <p className="member-name">Tomorrow's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
+                <li>Refine idea with SRS</li>
+                <li>Start working on SRS and proposal</li>
               </ul>
             </div>
           </section>
@@ -266,13 +243,50 @@ function App() {
             <div className="member-update">
               <p className="member-name">Today's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
+                <li>Thought about ideas for the proposal</li>
+                <li>Looked into potential tech stack software</li>
               </ul>
             </div>
             <div className="member-update">
               <p className="member-name">Tomorrow's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
+                <li>Continue exploring proposal ideas</li>
+                <li>Further research tech stack options</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Looked into an idea of project</li>
+                <li>Considered tech stack implementation</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue exploring tech stack</li>
+                <li>Develop project implementation strategy</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Looked into SRS formats</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Examine functional aspects of the idea</li>
+                <li>Explore non-functional aspects of the project</li>
               </ul>
             </div>
           </section>
@@ -282,28 +296,28 @@ function App() {
             <div className="member-update">
               <p className="member-name">Today's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
+                <li>Looked into project ideas</li>
               </ul>
             </div>
             <div className="member-update">
               <p className="member-name">Tomorrow's Tasks:</p>
               <ul>
-                <li>Tasks go here</li>
+                <li>Review user requirement specifications</li>
               </ul>
             </div>
           </section>
+
           <section>
             <h3>Reminders</h3>
             <div className="member-update">
               <ul>
-                <li>Other tasks go here</li>
-                <li>Other tasks go here</li>
-                <li>Other tasks go here</li>
+                <li>Team is focusing on developing project proposal</li>
+                <li>SRS (Software Requirements Specification) is a key priority</li>
+                <li>Continued exploration of tech stack and project ideas</li>
               </ul>
             </div>
           </section>
         </article>
-        {/* Meeting 3 end */}
 
         {/* Meeting 2 */}
         <article className="meeting-log">
