@@ -11,7 +11,7 @@ function AboutUs() {
     },
     {
       name: "Christopher K",
-      role: "Team Member",
+      role: "C.E.O.",
       description: "Software Engineering Student at Cal Poly Pomona"
     },
     {
