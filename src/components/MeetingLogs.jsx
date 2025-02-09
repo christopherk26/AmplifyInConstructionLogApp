@@ -18,6 +18,135 @@ function App() {
 
       <main className="logs-grid">
 
+        {/* Meeting bed 8 */}
+        <article className="meeting-log">
+          <h2>Meeting - February 8, 2025</h2>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Looked into tech stack</li>
+                <li>Explored Figma and its usage</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue tech stack research</li>
+                <li>Further Figma exploration</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Planned out project concept and identification code</li>
+                <li>Began work on SRS documentation</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue developing SRS</li>
+                <li>Refine project concept details</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Investigated Firebase</li>
+                <li>Continued exploring Firebase capabilities</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Deepen Firebase understanding</li>
+                <li>Prepare Firebase implementation strategy</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Looked into tech stack</li>
+                <li>Brushed up on JavaScript skills</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue tech stack research</li>
+                <li>Further JavaScript skill development</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Set up Figma for team collaboration</li>
+                <li>Created mockup pages for web application</li>
+                <li>Designed mockups for Home Page, Login Screen, and Home View</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue UI design in Figma</li>
+                <li>Refine web application mockups</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Worked on SRS documentation</li>
+                <li>Created tasks for team members</li>
+                <li>Developed general project timeline</li>
+                <li>Organized meeting structure</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue SRS development</li>
+                <li>Learn Figma</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Ongoing focus on SRS documentation and project planning</li>
+                <li>Multiple team members exploring tech stack and tools</li>
+                <li>Figma being used for UI design and collaboration</li>
+                <li>Firebase investigation continues</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+        {/* Meeting feb 8 end */}
+
         {/* Meeting Log fwb 6 */}
         <article className="meeting-log">
           <h2>Meeting - February 6, 2025</h2>
@@ -545,7 +674,7 @@ function App() {
 
       </main>
       <div className="team-members">
-          Website made by Kurdoghlian
+        Website made by Kurdoghlian
       </div>
     </div>
   )
