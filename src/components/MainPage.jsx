@@ -11,6 +11,14 @@ function MainPage() {
         <nav className="navigation">
           <Link to="/logs" className="nav-link">View Meeting Logs 📝</Link>
           <Link to="/about" className="nav-link">About Us 👥</Link>
+          <a
+            href="https://github.com/christopherk26/InConstruction4800"
+            className="nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Repository Link 💻
+          </a>
         </nav>
       </header>
 
@@ -20,15 +28,15 @@ function MainPage() {
           <div className="content-card">
             <p>
               The primary product of In Construction, inc is the Town Hall application.
-              Town Hall is an innovative digital platform designed to revolutionize local 
-              community interaction by creating a verified, transparent, and engaging 
-              communication ecosystem. Inspired by social media platforms like Reddit, 
-              but fundamentally different in its approach, Town Hall addresses critical 
-              gaps in modern local communication by providing a robust, verified, and 
+              Town Hall is an innovative digital platform designed to revolutionize local
+              community interaction by creating a verified, transparent, and engaging
+              communication ecosystem. Inspired by social media platforms like Reddit,
+              but fundamentally different in its approach, Town Hall addresses critical
+              gaps in modern local communication by providing a robust, verified, and
               geographically-specific communication channel.
             </p>
             <p>
-              The goal is to create a LinkedIn-style "professional environment" but 
+              The goal is to create a LinkedIn-style "professional environment" but
               with the Reddit community approach.
             </p>
           </div>
@@ -38,17 +46,17 @@ function MainPage() {
           <h2>Vision Statement 🚧 🏗️</h2>
           <div className="content-card">
             <p>
-              Town Hall aims to reimagine local communication by creating a trusted, 
-              verified, and transparent platform that reconnects communities, empowers 
+              Town Hall aims to reimagine local communication by creating a trusted,
+              verified, and transparent platform that reconnects communities, empowers
               citizens, and revitalizes the social fabric of modern urban and suburban life.
             </p>
             <p>
-              Developed to address the fundamental breakdown of local communication in 
-              the digital age, and the lack of a centralized and government-sponsored 
+              Developed to address the fundamental breakdown of local communication in
+              the digital age, and the lack of a centralized and government-sponsored
               source of two-way communication between citizens and leaders.
             </p>
             <p>
-              With the post-COVID era of the world having everything virtual and 
+              With the post-COVID era of the world having everything virtual and
               convenient, it is time for local governments to also follow suit.
             </p>
           </div>
@@ -77,7 +85,7 @@ function MainPage() {
         </section>
       </main>
       <div className="team-members">
-          Website made by Kurdoghlian
+        Website made by Kurdoghlian
       </div>
     </div>
   );

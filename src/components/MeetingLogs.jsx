@@ -10,6 +10,14 @@ function App() {
         <nav className="navigation">
           <Link to="/" className="nav-link">Home 🏠</Link>
           <Link to="/about" className="nav-link">About Us 👥</Link>
+          <a
+            href="https://github.com/christopherk26/InConstruction4800"
+            className="nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Repository Link 💻
+          </a>
         </nav>
         <div className="team-members">
           Meetings are at 9:00 PM.

@@ -43,7 +43,16 @@ function AboutUs() {
         <nav className="navigation">
           <Link to="/" className="nav-link">Home 🏠</Link>
           <Link to="/logs" className="nav-link">Meeting Logs 📝</Link>
+          <a
+            href="https://github.com/christopherk26/InConstruction4800"
+            className="nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Repository Link 💻
+          </a>
         </nav>
+        
       </header>
 
       <main className="main-content">
