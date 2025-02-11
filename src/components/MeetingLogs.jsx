@@ -26,7 +26,196 @@ function App() {
 
       <main className="logs-grid">
 
-        {/* Meeting bed 8 */}
+
+        {/* Meeting feb 10 */}
+        {/* Project Management Meeting Log */}
+        <article className="meeting-log">
+          <h2>Meeting - February 10, 2025; Project Management Structure Created</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>From experience from leading groups, it is clear that 
+                  team members need a direction and a clear to do. 
+                  I have taken the role of project coordinator to ensure
+                  that the team is on track and that we are meeting our
+                  goals. As done today, there are three groups,
+                  the UI and Front-End Team, the Cloud and Backend Infrastructure
+                  Team, and the SRS Team. Each team is focused on their own
+                  tasks and will present their progress during meetings.
+                </li>
+                <li>Addressed team attendance expectations</li>
+                <li>Defined future meeting protocols</li>
+                <li>Established project management subgroups</li>
+                <li>Organized team to-do lists and timeline</li>
+                <li>Assigned team roles and responsibilities</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Project Management Roles:</p>
+              <ul>
+                <li>Project Coordinator</li>
+                <li>Project Manager</li>
+                <li>System-Level Designer</li>
+                <li>Scrum Meeting Captain</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue overseeing project coordination</li>
+                <li>Ensure smooth communication between subteams</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Created baseline for ID verification</li>
+                <li>Researched backend frameworks</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Project Role:</p>
+              <ul>
+                <li>Login and User Admin Lead</li>
+                <li>Part of SRS and User Identification Team</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue SRS documentation</li>
+                <li>Develop user identification system</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Researched Figma</li>
+                <li>Designed broad app outline</li>
+                <li>Began Firebase data research</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Project Role:</p>
+              <ul>
+                <li>Cloud and Backend Infrastructure Team</li>
+                <li>Focused on Google Cloud / Firebase Setup</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Firebase data research</li>
+                <li>Prepare for full-stack demo</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Focused on React development</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Project Role:</p>
+              <ul>
+                <li>Cloud and Backend Infrastructure Team</li>
+                <li>Working on Google Cloud / Firebase integration</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue React development</li>
+                <li>Prepare for full-stack demo</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Researched JavaScript</li>
+                <li>Learning Figma</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Project Role:</p>
+              <ul>
+                <li>UI and Front-End Team</li>
+                <li>Working on Figma UI Design</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue JavaScript learning</li>
+                <li>Progress with Figma UI design</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Learned Figma functions</li>
+                <li>Preparing to finalize UI mockups</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Project Role:</p>
+              <ul>
+                <li>UI and Front-End Team</li>
+                <li>Responsible for UI Design and Mockups</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Finalize UI mockups</li>
+                <li>Prepare presentation of UI design</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Meetings occur every other day (excluding class days)</li>
+                <li>Each subteam must present progress during meetings</li>
+                <li>Upcoming milestone: Full-stack working demo next Wednesday</li>
+                <li>Team roles:
+                  <ul>
+                    <li>UI Team: Kevin and Ali</li>
+                    <li>Cloud/Backend Team: Garrett and Ramsey</li>
+                    <li>SRS Team: Christopher and Nicolas</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+        {/* Meeting feb 8 */}
         <article className="meeting-log">
           <h2>Meeting - February 8, 2025</h2>
 
