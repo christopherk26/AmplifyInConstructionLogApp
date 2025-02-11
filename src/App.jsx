@@ -4,6 +4,9 @@ import MainPage from './components/MainPage';
 import MeetingLogs from './components/MeetingLogs';
 import AboutUs from './components/AboutUs';
 import './App.css';
+import app from "./firebaseConfig";
+
+console.log("Firebase App:", app);
 
 function App() {
   return (
