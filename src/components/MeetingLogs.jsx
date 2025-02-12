@@ -26,6 +26,138 @@ function App() {
 
       <main className="logs-grid">
 
+        {/* Meeting Log - February 11 */}
+        <article className="meeting-log">
+          <h2>Meeting - February 11, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Discussed system creation with Nicolas</li>
+                <li>Developed full plan for Town Hall system</li>
+                <li>Mapped out community and role information structure</li>
+                <li>Prepared for continued SRS documentation</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue SRS documentation</li>
+                <li>Refine system design details</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Revised SRS documentation</li>
+                <li>Planned app pathway and direction</li>
+                <li>Developed login verification approach</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue SRS refinement</li>
+                <li>Detail login verification process</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Added Firestore to the project</li>
+                <li>Implemented additional Firebase features</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Firebase integration</li>
+                <li>Expand Firebase functionality</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Explored Figma tool</li>
+                <li>Assisted in UI design refinement</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue UI design improvements</li>
+                <li>Further Figma exploration</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Set up Firebase for Amplify</li>
+                <li>Configured Firebase for Town Hall</li>
+                <li>Connected Town Hall with Firestore</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Firebase configuration</li>
+                <li>Optimize Amplify and Town Hall integration</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Created Figma mock views for Home page</li>
+                <li>Designed App Startup Page mockup</li>
+                <li>Defined clear UI Style Guidelines</li>
+                <li>Added Style Guidelines to Interface Prototype</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Refine UI mockups</li>
+                <li>Further develop UI style guidelines</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Ongoing SRS documentation and system design</li>
+                <li>Continued Firebase and Firestore integration</li>
+                <li>UI design and Figma mockup development</li>
+                <li>Focusing on Town Hall system architecture</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
 
         {/* Meeting feb 10 */}
         {/* Project Management Meeting Log */}
@@ -37,8 +169,8 @@ function App() {
             <div className="member-update">
               <p className="member-name">Today's Tasks:</p>
               <ul>
-                <li>From experience from leading groups, it is clear that 
-                  team members need a direction and a clear to do. 
+                <li>From experience from leading groups, it is clear that
+                  team members need a direction and a clear to do.
                   I have taken the role of project coordinator to ensure
                   that the team is on track and that we are meeting our
                   goals. As done today, there are three groups,
