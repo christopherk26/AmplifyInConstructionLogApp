@@ -26,6 +26,119 @@ function App() {
 
       <main className="logs-grid">
 
+
+        {/* Meeting Log - February 15 */}
+        {/* Meeting Log - February 15, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - February 15, 2025</h2>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Wrote and refactored SRS with Christopher</li>
+                <li>Reviewed and re-pathed the application flow</li>
+                <li>Discussed authentication script location</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue SRS refinement</li>
+                <li>Investigate authentication script deployment options</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued researching JavaScript</li>
+                <li>Reviewed the SRS documentation</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Deepen JavaScript knowledge</li>
+                <li>Provide feedback on SRS</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Set up database for local machine</li>
+                <li>Configured database globally</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Optimize database configuration</li>
+                <li>Prepare database for development</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Worked on understanding design specifications</li>
+                <li>Prepared to implement additional interface sections</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Begin implementing new interface sections</li>
+                <li>Continue studying design specifications</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Spent 4 hours working on SRS with Nicolas</li>
+                <li>Near completion of SRS documentation</li>
+                <li>Communicated UI details</li>
+                <li>Discussed authentication script deployment with Nicolas</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Finalize SRS with Nicolas</li>
+                <li>Review UI communication details</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>SRS documentation is a key focus</li>
+                <li>Authentication script deployment needs decision</li>
+                <li>Continued interface and design specification work</li>
+                <li>Ongoing JavaScript and database configuration</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+        {/* Meeting Log - February 15 end */}
+
         {/* Meeting Log - February 11 */}
         <article className="meeting-log">
           <h2>Meeting - February 11, 2025</h2>

@@ -6,7 +6,7 @@ function AboutUs() {
   const teamMembers = [
     {
       name: "Ali M",
-      role: "Team Member",
+      role: "Frontend Developer",
       description: "Software Engineering Student at Cal Poly Pomona"
     },
     {
@@ -16,22 +16,22 @@ function AboutUs() {
     },
     {
       name: "Kevin T",
-      role: "Team Member",
+      role: "Frontend Developer Lead",
       description: "Software Engineering Student at Cal Poly Pomona"
     },
     {
       name: "Nicolas E",
-      role: "Team Member",
+      role: "Authentication and Project Managment Lead",
       description: "Software Engineering Student at Cal Poly Pomona"
     },
     {
       name: "Ramsey Foster",
-      role: "Team Member",
+      role: "Backend Developer",
       description: "Software Engineering Student at Cal Poly Pomona"
     },
     {
       name: "Garrett M",
-      role: "Team Member",
+      role: "Backend Developer Lead",
       description: "Software Engineering Student at Cal Poly Pomona"
     }
   ];
