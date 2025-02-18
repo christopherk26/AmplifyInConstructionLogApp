@@ -26,6 +26,132 @@ function App() {
 
       <main className="logs-grid">
 
+        {/* Meeting Log - February 18 */}
+        {/* Meeting Log - Database and Backend Discussion */}
+        <article className="meeting-log">
+          <h2>Meeting - Feb 17</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Prepared backend team discussion points</li>
+                <li>Nearly finished SRS after 4-hour session with Nicolas</li>
+                <li>Communicated UI details</li>
+                <li>Prepared to investigate backend implementation</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Backend Team Action Items:</p>
+              <ul>
+                <li>Research three Firebase database types:
+                  <ul>
+                    <li>Firestore</li>
+                    <li>Real-time Database</li>
+                    <li>Postgres Data</li>
+                  </ul>
+                </li>
+                <li>Investigate Firebase login mechanisms</li>
+                <li>Prepare explanation of deployment and hosting processes</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Look into backend details</li>
+                <li>Prepare to model database with backend team</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Completed test frontend</li>
+                <li>Successfully connected frontend to Firebase Real-time Database</li>
+                <li>Began investigating database differences</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue researching database implementations</li>
+                <li>Compare different database types</li>
+                <li>Prepare database implementation strategy</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Explained SRS to the team</li>
+                <li>Researching script running locations (local vs. cloud)</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue SRS documentation</li>
+                <li>Finalize script deployment strategy</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Reviewed SRS documentation</li>
+                <li>Began learning Figma</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue SRS review</li>
+                <li>Deepen Figma understanding</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Reviewed SRS for front-end specifications</li>
+                <li>Began working on second UI draft in Figma</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue UI draft development</li>
+                <li>Refine Figma design</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Ongoing database research and implementation</li>
+                <li>Key focus on Firebase database types</li>
+                <li>Continue SRS documentation and review</li>
+                <li>UI design and Figma development in progress</li>
+                <li>Investigate script deployment strategies</li>
+              </ul>
+            </div>
+          </section>
+        </article>
 
         {/* Meeting Log - February 15 */}
         {/* Meeting Log - February 15, 2025 */}
