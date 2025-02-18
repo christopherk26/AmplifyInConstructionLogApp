@@ -29,7 +29,7 @@ function App() {
         {/* Meeting Log - February 18 */}
         {/* Meeting Log - Database and Backend Discussion */}
         <article className="meeting-log">
-          <h2>Meeting - Feb 17</h2>
+          <h2>Meeting - February 17, 2025</h2>
 
           <section>
             <h3>Christopher</h3>
