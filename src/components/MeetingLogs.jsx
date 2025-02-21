@@ -26,6 +26,125 @@ function App() {
 
       <main className="logs-grid">
 
+
+        {/* Meeting Log - February 20 */}
+        <article className="meeting-log">
+          <h2>Meeting - February 20, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Yesterday's Tasks:</p>
+              <ul>
+                <li>Requested backend discussion with Garrett</li>
+                <li>Planned quick chat about backend and branching</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Investigated Next.js</li>
+                <li>Managed Git repository</li>
+                <li>Prepared to initialize project</li>
+                <li>Planned collaboration with backend and frontend teams</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue project initialization</li>
+                <li>Coordinate between backend and frontend teams</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Watched basic Figma tutorials</li>
+                <li>Began developing app's UI</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue UI development</li>
+                <li>Apply Figma learnings to design</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Set up connection between front-end and back-end</li>
+                <li>Investigated databases related to Google</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue backend-frontend integration</li>
+                <li>Further database research</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Completed app welcome section in Figma</li>
+                <li>Prepared to create Figma views for login and sign-up</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Create login and sign-up Figma views</li>
+                <li>Refine welcome section design</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Created database button for test web page</li>
+                <li>Connected Firestore to webpage</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Firestore integration</li>
+                <li>Refine database implementation</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Project initialization in progress</li>
+                <li>Ongoing UI design in Figma</li>
+                <li>Backend and frontend integration continues</li>
+                <li>Firestore and database implementation</li>
+                <li>Git repository management</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
         {/* Meeting Log - February 18 */}
         {/* Meeting Log - Database and Backend Discussion */}
         <article className="meeting-log">
