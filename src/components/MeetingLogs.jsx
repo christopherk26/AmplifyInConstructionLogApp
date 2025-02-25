@@ -27,6 +27,166 @@ function App() {
       <main className="logs-grid">
 
 
+
+        {/* Meeting Log - February 24, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - February 24, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Shared Firestore implementation files</li>
+                <li>Working with Nicolas on updated UML and ER diagrams</li>
+                <li>Noted front-end team is progressing well</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Backend Team Action Items:</p>
+              <ul>
+                <li>Investigate Firebase integration with Next.js</li>
+                <li>Research API routing</li>
+                <li>Understand dynamic pages in Next.js</li>
+                <li>Explore Firestore rules configuration</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue UML and ER diagram development</li>
+                <li>Support backend team research</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey and Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Research Focus:</p>
+              <ul>
+                <li>Understand Firebase integration with Next.js</li>
+                <li>Explore API routing mechanisms</li>
+                <li>Learn about dynamic pages in Next.js</li>
+                <li>Investigate Firestore rules and configuration</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Action Items:</p>
+              <ul>
+                <li>Review Christopher's Firestore implementation</li>
+                <li>Prepare comprehensive report on findings</li>
+                <li>Develop integration strategy</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas and Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Creating updated UML diagram</li>
+                <li>Developing new ER diagram</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Finalize UML and ER diagrams</li>
+                <li>Prepare documentation</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Ongoing Next.js and Firebase integration research</li>
+                <li>UML and ER diagram development</li>
+                <li>Firestore implementation and configuration</li>
+                <li>Continued technical investigation</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
+
+        {/* Meeting Log - February 23, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - February 23, 2025</h2>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Started designing Mobile UI</li>
+                <li>Continued Mobile UI design work</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Mobile UI design</li>
+                <li>Refine mobile interface elements</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued the verification code development</li>
+                <li>Implementing verification for communities and addresses</li>
+                <li>Working on system to accept various documents</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue verification code refinement</li>
+                <li>Develop comprehensive verification system</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Investigated implementing Firestore</li>
+                <li>Began creating database structure</li>
+                <li>Exploring alternatives to Real-time Database</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue database structure development</li>
+                <li>Finalize Firestore implementation strategy</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Ongoing mobile UI design progress</li>
+                <li>Continued verification code development</li>
+                <li>Database structure exploration</li>
+                <li>Focus on Firestore implementation</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
         {/* Meeting Log - February 20 */}
         <article className="meeting-log">
           <h2>Meeting - February 20, 2025</h2>
