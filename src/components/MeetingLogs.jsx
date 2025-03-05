@@ -26,6 +26,298 @@ function App() {
 
       <main className="logs-grid">
 
+        {/* Meeting Log - March 4, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - March 4, 2025</h2>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued working on login page</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Complete login page development</li>
+                <li>Refine login functionality</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Prepared to work on diagram with Chris</li>
+                <li>Investigating data object formation in NoSQL database</li>
+                <li>Exploring methods to incorporate functions within database objects</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue work on architecture diagram</li>
+                <li>Develop data object strategies</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued work on Firebase admin script</li>
+                <li>Began developing login page and authentication</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue login page development</li>
+                <li>Refine Firebase admin script</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Worked on Figma design</li>
+                <li>Continued working on mobile app section</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Complete mobile app Figma design</li>
+                <li>Refine UI elements</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Deployed app with Firebase hosting</li>
+                <li>Provided team with forward-looking plan</li>
+                <li>Prepared to work on architecture diagram with Nicolas</li>
+                <li>Planned to investigate file structure for entities</li>
+                <li>Aimed to understand dynamic routing [id]</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue architecture diagram development</li>
+                <li>Explore entity file structure</li>
+                <li>Dive deeper into dynamic routing</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Finalized all navigation views on Figma</li>
+                <li>Completed mobile app subsections</li>
+                <li>Began porting to web prototype</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue web prototype development</li>
+                <li>Refine navigation views</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Ongoing app deployment and hosting</li>
+                <li>Continued login page and authentication development</li>
+                <li>Architecture diagram and entity structure investigation</li>
+                <li>Figma design and prototype progression</li>
+                <li>Dynamic routing exploration</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+        {/* Meeting Log - March 2, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - March 2, 2025</h2>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Learning Firebase through hands-on experience</li>
+                <li>Creating a login page</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Firebase learning</li>
+                <li>Develop login page functionality</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Worked on Firebase admin script</li>
+                <li>Attempted to get demo script working</li>
+                <li>Started creating a login authentication page</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Firebase admin script development</li>
+                <li>Refine login authentication page</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Worked on UML diagram</li>
+                <li>Prepared to collaborate with Chris on architecture diagram</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue UML development</li>
+                <li>Work on architecture diagram with Christopher</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Prepared to demonstrate database demo</li>
+                <li>Shared database demo link: https://cs-4800-in-construction-63b73.web.app/databaseNoAPIrouting</li>
+                <li>Planned to work on architecture diagram with Nicolas</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Finalize architecture diagram with Nicolas</li>
+                <li>Review database demo feedback</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Database demo presentation</li>
+                <li>Ongoing login page development</li>
+                <li>UML and architecture diagram work</li>
+                <li>Firebase admin script progress</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
+        {/* Meeting Log - February 27, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - February 27, 2025</h2>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Made verification script more robust</li>
+                <li>Researched Firebase functions for server-side code execution</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue improving verification script</li>
+                <li>Further investigate server-side Firebase functions</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Wrote a script for Firebase admin</li>
+                <li>Worked on getting the demo working for Firebase admin</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Firebase admin script development</li>
+                <li>Refine demo implementation</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Finished search bar design for mobile app</li>
+                <li>Continued mobile app design work</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue mobile app design</li>
+                <li>Refine search bar and other UI elements</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Ongoing Firebase admin and verification script development</li>
+                <li>Mobile app design progression</li>
+                <li>Continued research on Firebase functions</li>
+              </ul>
+            </div>
+          </section>
+        </article>
 
 
         {/* Meeting Log - February 24, 2025 */}
