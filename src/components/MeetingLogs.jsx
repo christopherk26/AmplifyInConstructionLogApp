@@ -26,7 +26,107 @@ function App() {
 
       <main className="logs-grid">
 
+        {/* Meeting Log - March 14, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - March 14, 2025</h2>
 
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Recent Achievements:</p>
+              <ul>
+                <li>Completed multiple key pages in the last week:
+                  <ul>
+                    <li>Edit profile page</li>
+                    <li>Communities page</li>
+                    <li>Add community page</li>
+                    <li>Search communities page</li>
+                    <li>Community feed page</li>
+                  </ul>
+                </li>
+                <li>Created comprehensive to-do list for the team</li>
+                <li>Developed strategic approach to team collaboration</li>
+                <li>Provided guidance on understanding codebase</li>
+                <li>Introduced Git version control best practices</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Execute team to-do list</li>
+                <li>Collaborate with subteams on:
+                  <ul>
+                    <li>Firebase functions for user authentication</li>
+                    <li>Firebase functions for community authentication</li>
+                    <li>Settings page development</li>
+                    <li>Notifications implementation</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Working on Firebase functions for authentication</li>
+                <li>Debugging internal errors</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Firebase authentication function development</li>
+                <li>Resolve and document debugging findings</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Reviewed project progress and current state</li>
+                <li>Began working on the website's settings tab</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue developing settings tab</li>
+                <li>Deepen understanding of project architecture</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Created display for notifications</li>
+                <li>Worked on fixing notification structure</li>
+                <li>Researched notification implementation strategies</li>
+              </ul>
+            </div>
+          
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+
+                <li>Continued work on settings and notifications</li>
+                <li>Focus on team collaboration and codebase understanding</li>
+
+              </ul>
+            </div>
+          </section>
+        </article>
 
 
         {/* Meeting Log - March 6-7, 2025 */}
