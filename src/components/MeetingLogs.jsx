@@ -27,6 +27,7 @@ function App() {
       <main className="logs-grid">
 
         {/* Meeting Log - March 14, 2025 */}
+        {/* Meeting Log - March 14, 2025 */}
         <article className="meeting-log">
           <h2>Meeting - March 14, 2025</h2>
 
