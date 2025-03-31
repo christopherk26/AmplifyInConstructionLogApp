@@ -28,12 +28,60 @@ function App() {
 
 
 
-       
+
+
+
         {/* Meeting Log - March 24, 2025 */}
         <article className="meeting-log">
           <h2>Meeting - March 24, 2025</h2>
 
-       
+          {/* Meeting Log - March 30, 2025 */}
+          <article className="meeting-log">
+            <h2>Meeting - March 30, 2025</h2>
+
+            <section>
+              <h3>Christopher</h3>
+              <div className="member-update">
+                <p className="member-name">Today's Tasks:</p>
+                <ul>
+                  <li>Created new development branch</li>
+                  <li>Merged Garrett's commenting branch</li>
+                  <li>Enhanced commenting functionality:
+                    <ul>
+                      <li>Implemented likes system</li>
+                      <li>Developed nested comments up to 4 layers deep</li>
+                      <li>Added comment deletion feature</li>
+                    </ul>
+                  </li>
+                  <li>Designed UI for new commenting and interaction features</li>
+                </ul>
+              </div>
+              <div className="member-update">
+                <p className="member-name">Project Note:</p>
+                <ul>
+                  <li>Spring break this week, anticipating reduced team activity</li>
+                </ul>
+              </div>
+              <div className="member-update">
+                <p className="member-name">Tomorrow's Tasks:</p>
+                <ul>
+                  <li>Continue feature refinement</li>
+                  <li>Prepare for post-spring break team sync</li>
+                </ul>
+              </div>
+            </section>
+
+            <section>
+              <h3>Reminders</h3>
+              <div className="member-update">
+                <ul>
+                  <li>Minimal project activity during spring break</li>
+                  <li>New commenting and interaction features implemented</li>
+                  <li>Prepare for resumed development after break</li>
+                </ul>
+              </div>
+            </section>
+          </article>
 
 
           <section>
@@ -78,7 +126,7 @@ function App() {
                 <li>Looking into commenting on commnnts functionality</li>
               </ul>
             </div>
-            
+
           </section>
 
           <section>
@@ -312,7 +360,7 @@ function App() {
                 <li>Created algorithm for post ranking</li>
               </ul>
             </div>
-            
+
           </section>
 
           <section>
@@ -430,7 +478,7 @@ function App() {
         <article className="meeting-log">
           <h2>Meeting - March 15, 2025</h2>
 
-         
+
 
           <section>
             <h3>Ramsey</h3>
