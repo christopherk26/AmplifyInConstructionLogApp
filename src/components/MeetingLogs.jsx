@@ -28,6 +28,694 @@ function App() {
 
 
 
+
+        {/* Meeting Log - April 18, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 18, 2025</h2>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Completed search page development</li>
+                <li>Implemented regex searching functionality</li>
+                <li>Added advanced search filtering options</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Refine search functionality</li>
+                <li>Optimize search performance</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Updated admin page</li>
+                <li>Completed CSV upload and user role service</li>
+                <li>Worked with Nicolas on trending post logic</li>
+                <li>Finalized post trending implementation</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue admin page refinement</li>
+                <li>Review trending post mechanism</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Began working on implementation document</li>
+                <li>Started documenting project patterns</li>
+                <li>Prepared initial draft of implementation documentation</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue implementation document development</li>
+                <li>Collaborate with Ali and Garrett on pattern identification</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Investigated Jest testing suite</li>
+                <li>Began exploring testing strategies</li>
+                <li>Worked with Ali on testing implementation</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue Jest testing research</li>
+                <li>Develop initial test cases</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Collaborated with Chris on trending post logic</li>
+                <li>Completed implementation of post trending mechanism</li>
+                <li>Prepared for C0 testing development</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Begin C0 testing strategy development</li>
+                <li>Start creating comprehensive test cases</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Assisted Garrett with Jest testing</li>
+                <li>Helped explore testing strategies</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue testing support</li>
+                <li>Help develop test cases</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Remaining Tasks</h3>
+            <div className="member-update">
+              <ul>
+                <li>Complete implementation document</li>
+                <li>Develop comprehensive testing strategy</li>
+                <li>Create C0 and unit tests</li>
+                <li>Finalize project documentation</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Ongoing implementation documentation</li>
+                <li>Testing suite development</li>
+                <li>Continued project refinement</li>
+                <li>Preparation for final project phase</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
+
+        {/* Meeting Log - April 15, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 15, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Deployed the application with Firebase hosting</li>
+                <li>Provided team with comprehensive project plan</li>
+                <li>Prepared for upcoming feature integrations</li>
+                <li>Reviewed overall project architecture</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue project coordination</li>
+                <li>Prepare for next development phase</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Decided to discontinue using Figma for design</li>
+                <li>Discussed alternative design approaches</li>
+                <li>Prepared to transition design process</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Explore new design collaboration methods</li>
+                <li>Discuss design workflow alternatives</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued work on trending post logic</li>
+                <li>Refined post sorting mechanisms</li>
+                <li>Worked on additional filtering capabilities</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Finalize trending post algorithm</li>
+                <li>Optimize post sorting performance</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued development of notification system</li>
+                <li>Refined notification delivery mechanisms</li>
+                <li>Worked on community-specific notification settings</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Complete notification system refinements</li>
+                <li>Test notification delivery</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued refinement of comment interaction features</li>
+                <li>Optimized nested commenting system</li>
+                <li>Improved overall comment UI and functionality</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Finalize comment system improvements</li>
+                <li>Prepare for comprehensive testing</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued mobile application design exploration</li>
+                <li>Worked on responsive design approaches</li>
+                <li>Explored mobile view implementation strategies</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue mobile design refinement</li>
+                <li>Test responsive design approaches</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Application deployed on Firebase</li>
+                <li>Continued refinement of core features</li>
+                <li>Ongoing design and functionality improvements</li>
+                <li>Preparation for comprehensive testing</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
+        {/* Meeting Log - April 11, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 11, 2025</h2>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Finalized Firebase function for user verification</li>
+                <li>Completed authentication mechanism for community joining</li>
+                <li>Integrated user verification with existing system</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Perform comprehensive verification testing</li>
+                <li>Document user authentication flow</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Refined comment interaction features</li>
+                <li>Implemented nested commenting up to 4 layers deep</li>
+                <li>Added comment deletion functionality</li>
+                <li>Completed UI for comment interactions</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Test comment system thoroughly</li>
+                <li>Optimize comment interaction performance</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued implementation of Firestore security rules</li>
+                <li>Developed comprehensive backend authentication logic</li>
+                <li>Ensured robust user interaction security</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Finalize security rule implementation</li>
+                <li>Conduct security penetration testing</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>User verification function completed</li>
+                <li>Advanced comment interaction system implemented</li>
+                <li>Ongoing Firestore security rule development</li>
+                <li>Continued focus on system authentication</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
+        {/* Meeting Log - April 9, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 9, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued refinement of admin page</li>
+                <li>Updated roles UI and database</li>
+                <li>Simplified role management scripts</li>
+                <li>Improved overall admin UI design</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Further optimize admin page</li>
+                <li>Review role management system</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Explored mobile application approach</li>
+                <li>Investigated Chrome instance for mobile view</li>
+                <li>Looked into Android emulator and Xcode possibilities</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue mobile application research</li>
+                <li>Develop initial mobile view prototype</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Finalized notification system improvements</li>
+                <li>Completed UI updates for notifications</li>
+                <li>Implemented comprehensive "delete all" functionality</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Test notification system thoroughly</li>
+                <li>Prepare documentation for notification features</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Admin page and roles management refined</li>
+                <li>Notification system improvements completed</li>
+                <li>Mobile application research initiated</li>
+                <li>Continued focus on UI and feature optimization</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
+
+        {/* Meeting Log - April 3, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 3, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Developed moderator post management features</li>
+                <li>Implemented functionality for:
+                  <ul>
+                    <li>Moving posts to archive section</li>
+                    <li>Pinning posts</li>
+                    <li>Deleting personal posts</li>
+                  </ul>
+                </li>
+                <li>Refined role-based posting permissions</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Test moderator post management features</li>
+                <li>Review role-based permissions</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Kevin</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Implemented search functionality with regex matching</li>
+                <li>Developed dropdown search with advanced filtering</li>
+                <li>Added complex search capabilities to the application</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Refine search functionality</li>
+                <li>Optimize search performance</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas and Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Developed logic for trending posts</li>
+                <li>Implemented post sorting based on upvotes in the last week</li>
+                <li>Created Firestore indices for efficient sorting</li>
+                <li>Added support for pinned and archived posts</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Refine trending post mechanism</li>
+                <li>Test post sorting and indexing</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Moderator post management features completed</li>
+                <li>Advanced search functionality implemented</li>
+                <li>Trending posts logic developed</li>
+                <li>Continued focus on application refinement</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
+
+        {/* Meeting Log - April 2, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 2, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Completed implementation of Admin SDK</li>
+                <li>Developed scripts to bypass Firestore rules for administrative tasks</li>
+                <li>Refined populate scripts with new admin credentials</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Test Admin SDK functionality</li>
+                <li>Ensure secure script execution</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued work on notification system</li>
+                <li>Updated UI for notifications</li>
+                <li>Implemented "delete all" functionality for notifications</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Finalize notification system improvements</li>
+                <li>Perform comprehensive notification feature testing</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued development of Firebase function for user verification</li>
+                <li>Refined community joining authentication process</li>
+                <li>Integrated user verification with existing authentication flow</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Complete user verification function</li>
+                <li>Prepare for comprehensive testing</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued development of comment functionality</li>
+                <li>Implemented liking comments feature</li>
+                <li>Added ability to comment on comments</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Refine comment interaction features</li>
+                <li>Test nested commenting system</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Admin SDK implementation completed</li>
+                <li>Ongoing notification system improvements</li>
+                <li>Continued comment functionality development</li>
+                <li>User verification process refinement</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
+        {/* Meeting Log - April 1, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 1, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued refinement of Firebase Firestore security rules</li>
+                <li>Worked on implementing comprehensive backend authentication logic</li>
+                <li>Developed additional security constraints for user interactions</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Finalize Firestore security rule implementation</li>
+                <li>Test comprehensive authentication mechanisms</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Progressed on Firebase function for user verification</li>
+                <li>Developed initial mechanisms for community joining process</li>
+                <li>Worked on authentication flow integration</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue refining user verification function</li>
+                <li>Improve community joining authentication</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Garrett</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Implemented initial commenting functionality</li>
+                <li>Developed core logic for comment interactions</li>
+                <li>Started work on comment liking feature</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue comment feature development</li>
+                <li>Refine comment interaction mechanisms</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Ongoing Firestore security rule implementation</li>
+                <li>User verification and authentication development</li>
+                <li>Comment interaction feature progress</li>
+                <li>Continued focus on backend security</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+
+
+
+
+
         {/* Meeting Log - March 30, 2025 */}
         <article className="meeting-log">
           <h2>Meeting - March 30, 2025</h2>
