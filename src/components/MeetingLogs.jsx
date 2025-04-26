@@ -29,6 +29,76 @@ function App() {
 
 
 
+        {/* Meeting Log - April 25-26, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 25-26, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Comprehensive Bug Fixes:</p>
+              <ul>
+                <li>Repaired Firestore rules</li>
+                <li>Fixed comment number updating mechanism</li>
+                <li>Corrected emoji display for user roles</li>
+                <li>Updated post page and search page dropdowns to reflect current community selection</li>
+                <li>Fixed emergency post dropdown in create post section</li>
+                <li>Implemented recursive comment deletion to remove child comments</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue system refinement</li>
+                <li>Address any remaining minor issues</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali and Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Use Case Testing:</p>
+              <ul>
+                <li>Conducted comprehensive human testing of the entire site</li>
+                <li>Completed 70 detailed use cases</li>
+                <li>Documented testing process with:
+                  <ul>
+                    <li>Page tested</li>
+                    <li>Use case description</li>
+                    <li>Expected outcome</li>
+                    <li>Actual result</li>
+                    <li>Pass/Fail status</li>
+                  </ul>
+                </li>
+                <li>Created detailed testing document</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Testing Documentation:</p>
+              <ul>
+                <li>Comprehensive test report available at:
+                  <a href="https://docs.google.com/spreadsheets/d/1fB9UAnauQp_KAiFCn1FDCtiy0cuo24aeb4ku9Gojork/edit?usp=sharing">
+                    Detailed Use Case Testing Document
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Extensive bug fixing completed</li>
+                <li>Comprehensive use case testing finished</li>
+                <li>Continued focus on system reliability</li>
+                <li>Preparation for potential further refinements</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
         {/* Meeting Log - April 18, 2025 */}
         <article className="meeting-log">
           <h2>Meeting - April 18, 2025</h2>
