@@ -6,7 +6,7 @@ function MainPage() {
   return (
     <div className="container">
       <header className="header">
-        <h1>In Construction, Inc</h1>
+        <h1>In Construction Kurdos, Inc</h1>
         <p className="subtitle">Transforming Local Community Communication</p>
         <nav className="navigation">
           <Link to="/logs" className="nav-link">View Meeting Logs 📝</Link>

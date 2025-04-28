@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="container">
       <header className="header">
-        <h1>"In Construction" Inc. Meeting Logs</h1>
+        <h1>In Construction Kurdos, Inc. Meeting Logs</h1>
         <nav className="navigation">
           <Link to="/" className="nav-link">Home 🏠</Link>
           <Link to="/about" className="nav-link">About Us 👥</Link>
