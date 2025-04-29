@@ -27,7 +27,115 @@ function App() {
       <main className="logs-grid">
 
 
+        {/* Meeting Log - April 29, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 29, 2025</h2>
 
+          <section>
+            <h3>Nicolas</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Started work on final write-up and document</li>
+                <li>Made significant progress on documentation</li>
+                <li>Developed comprehensive project overview</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue finalizing project documentation</li>
+                <li>Refine project write-up</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Continued work on CEO document</li>
+                <li>Reviewed implementation document</li>
+                <li>Submitted use case documentation</li>
+                <li>Finalized submission of project documents</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Final document review</li>
+                <li>Prepare for project presentation</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Ali</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Began planning for final presentation</li>
+                <li>Started organizing presentation materials</li>
+                <li>Developed initial presentation strategy</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Continue presentation planning</li>
+                <li>Develop presentation outline</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Final project documentation in progress</li>
+                <li>Preparation for project presentation</li>
+                <li>Continued document refinement</li>
+                <li>Final submission of project materials</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+        {/* Meeting Log - April 28, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - April 28, 2025</h2>
+
+          <section>
+            <h3>Garrett and Ramsey</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Completed the implementation document</li>
+                <li>Finalized comprehensive project documentation</li>
+                <li>Synthesized project development patterns and approaches</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Review implementation document</li>
+                <li>Prepare for final document submission</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Implementation document completed</li>
+                <li>Preparation for final project documentation</li>
+                <li>Continued focus on project documentation</li>
+              </ul>
+            </div>
+          </section>
+        </article>
 
         {/* Meeting Log - April 25-26, 2025 */}
         <article className="meeting-log">
