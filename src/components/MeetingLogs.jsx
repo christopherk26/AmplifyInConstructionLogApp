@@ -27,6 +27,37 @@ function App() {
       <main className="logs-grid">
 
 
+        {/* Meeting Log - May 4, 2025 */}
+        <article className="meeting-log">
+          <h2>Meeting - May 4, 2025</h2>
+
+          <section>
+            <h3>Christopher</h3>
+            <div className="member-update">
+              <p className="member-name">Today's Tasks:</p>
+              <ul>
+                <li>Completed final project presentation</li>
+              </ul>
+            </div>
+            <div className="member-update">
+              <p className="member-name">Tomorrow's Tasks:</p>
+              <ul>
+                <li>Practice presentation with team members</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h3>Reminders</h3>
+            <div className="member-update">
+              <ul>
+                <li>Final presentation ready</li>
+                <li>Presentation practice needed</li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
         {/* Meeting Log - April 29, 2025 */}
         <article className="meeting-log">
           <h2>Meeting - April 29, 2025</h2>
